@@ -28,6 +28,7 @@
   --color-greyscale-900: #050505;
 
   // rounding
+  --rounding-line: 1.5px;
   --rounding-l: 50%;
   --rounding-m: 24px;
   --rounding-s: 16px;
@@ -38,7 +39,33 @@
   --font-size-l: 24px;
   --font-size-m: 18px;
   --font-size-s: 18px;
+  --font-size-dot-spacer: 12px;
 
   --font-weight-l: 700;
   --font-weight-m: 400;
+
+  @media only screen and (max-width: 450px) {
+    --font-weight-l: 600;
+  }
+
+  @media only screen and (max-width: 450px) {
+    --font-size-s: 14px;
+  }
+
+  @media only screen and (max-width: 352px) {
+    --font-size-s: 13px;
+  }
+
+  @media only screen and (max-width: 339px) {
+    --font-size-s: 12px;
+  }
+
+  @media only screen and (max-width: 328px) {
+    --font-size-s: 11px;
+  }
+  
+  @media only screen and (max-width: 306px) {
+    --font-size-s: 10px;
+  }
+
 }
